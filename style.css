@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+
+
+body{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/c/cc/BMI_chart.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'Handjet', cursive;
+    font-weight: bolder;
+    font-size: 30px;
+}
+span{
+    color: red;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 15px;
+    width: 50%;
+    background: black;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+.wrapper p{
+    color: aliceblue;
+}
+button{
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    background: black;
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+}
+@media(max-width:600px){
+    h2{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background-size: cover;
+        height: 600px;
+    }
+}
